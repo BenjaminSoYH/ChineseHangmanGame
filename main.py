@@ -1,10 +1,10 @@
 import random
 import tkinter as tk
 
-gay = open("Chinesechar.txt", encoding="utf8")
-shit = gay.read()
+opem = open("Chinesechar.txt", encoding="utf8")
+read = open.read()
 list = []
-for i in shit:
+for i in read:
     if i != '\n':
         list.append(i)
 
